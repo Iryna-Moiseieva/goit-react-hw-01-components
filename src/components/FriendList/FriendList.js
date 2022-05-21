@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './FriendList.module.css';
-import FriendListItem from '../FriendListItem/FriendListItem';
+import FriendListItem from './FriendListItem/FriendListItem';
 
 export default function FriendList({ friends }) {
     return (
@@ -26,12 +26,3 @@ FriendList.propTypes = {
         }).isRequired
     )
 }
-
- // Массив объектов конкретного типа
-// optionalArrayOf: PropTypes.arrayOf(PropTypes.number),
-
-// Объект с определённой структурой
-//   optionalObjectWithShape: PropTypes.shape({
-//     color: PropTypes.string,
-//     fontSize: PropTypes.number
-//   }),

@@ -42,7 +42,3 @@ Profile.propTypes = {
     stats: PropTypes.objectOf(PropTypes.number).isRequired,
 }
 
- // Объект со свойствами конкретного типа
-//   optionalObjectOf: PropTypes.objectOf(PropTypes.number),
-
-

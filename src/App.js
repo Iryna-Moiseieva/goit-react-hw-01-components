@@ -1,11 +1,10 @@
-// Импорт компонента
+// Import of components
 import Profile from './components/Profile/Profile';
 import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
-
-// Импорт json-file с данными
+// Import json-file with data
 import user from './data/user.json';
 import data from './data/data.json';
 import friends from './data/friends.json';

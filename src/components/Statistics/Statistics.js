@@ -32,11 +32,3 @@ Statistics.propTypes = {
     ),
 }
 
- // Массив объектов конкретного типа
-// optionalArrayOf: PropTypes.arrayOf(PropTypes.number),
-
-// Объект с определённой структурой
-//   optionalObjectWithShape: PropTypes.shape({
-//     color: PropTypes.string,
-//     fontSize: PropTypes.number
-//   }),
